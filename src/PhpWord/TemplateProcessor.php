@@ -586,7 +586,7 @@ class TemplateProcessor
          * ```
          */
 
-        $this->temporaryDocumentMainPart = $xml->asXml();
+        $this->tempDocumentMainPart = $xml->asXml();
 
         // Find the xml in between the tags
         $xmlBlock = null;
